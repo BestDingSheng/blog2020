@@ -103,8 +103,11 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: <repository url> #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+- type: git
+  repo: https://github.com/BestDingSheng/2020blog.git
+  branch: [gh-pages]
+- type: git
+  repo: git@gitee.com:jsding/blog2020.git
   branch: [master]
 
 asset_inject: false  
