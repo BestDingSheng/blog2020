@@ -11,10 +11,14 @@ menu:
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  留言板: /messageboard/ || fas fa-folder-open
-  List||fas fa-list:
-    - Music || /music/ || fas fa-music
-    - Movie || /movies/ || fas fa-video
+  留言板: /messageboard/ || fas fa-envelope
+  娱乐||fas fa-list:
+    - 音乐 || /music/ || fas fa-music
+    - 相册 || /Gallery/ || fas fa-picture-o
+    - 电影 || /movies/ || fas fa-video
+    - 读书 || /books/ || fas fa-book
+    - 游戏 || /games/ || fas fa-gamepad
+    
   友情连接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
@@ -39,8 +43,8 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  # fab fa-github: https://github.com/xxxxx || Github
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fab fa-github: https://github.com/xxxxx || Github
+  fas fa-envelope: mailto:xxxxxx@gmail.com || Email
 
 # search (搜索)
 # --------------------------------------
@@ -89,14 +93,19 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/avatar.png
+  # img: /img/avatar.png
+  img: https://s1.ax1x.com/2020/08/21/dNxpkV.jpg
   effect: false
 
 # the banner image of home page
 index_img:
 
 # if the banner of page not setting, it will show the top_img
-default_top_img: https://i.loli.net/2020/05/01/IuWi8QbHvzjlOPw.jpg
+# default_top_img: https://i.loli.net/2020/05/01/IuWi8QbHvzjlOPw.jpg # 主题默认图
+default_top_img: https://s1.ax1x.com/2020/08/21/dNA8fI.jpg  # 心空
+# default_top_img: https://s1.ax1x.com/2020/08/21/dNjzGD.jpg # 海贼王
+
+
 
 # the banner image of archive page
 archive_img:
@@ -110,11 +119,11 @@ tag_img:
 category_img:
 
 # If you are using hexo-douban, you can configure it (如果你有使用 hexo-douban,可配置這個)
-# douban:
-#   meta: false
-#   movies_img:
-#   books_img:
-#   games_img:
+douban:
+  meta: true
+  movies_img:
+  books_img:
+  games_img:
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -441,20 +450,22 @@ yandex_site_verification:
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 
-# theme_color:
-#   enable: true
-#   main: "#49B1F5"
-#   paginator: "#00c4b6"
-#   button_hover: "#FF7242"
-#   text_selection: "#00c4b6"
-#   link_color: "#99a9bf"
-#   meta_color: "#858585"
-#   hr_color: "#A4D8FA"
-#   code_foreground: "#F47466"
-#   code_background: "rgba(27, 31, 35, .05)"
-#   toc_color: "#00c4b6"
-#   blockquote_padding_color: "#49b1f5"
-#   blockquote_background_color: "#49b1f5"
+theme_color:
+  enable: true
+  main: "#49B1F5"
+  paginator: "#00c4b6"
+  button_hover: "#FF7242"
+  text_selection: "#00c4b6"
+  link_color: "#99a9bf"
+  meta_color: "#858585"
+  hr_color: "#A4D8FA"
+  code_foreground: "#F47466"
+  code_background: "rgba(27, 31, 35, .05)"
+  toc_color: "#00c4b6"
+  blockquote_padding_color: "#FFF"
+  # blockquote_padding_color: "#49b1f5"
+  # blockquote_background_color: "#49b1f5"
+  blockquote_background_color: "#FFF"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -474,14 +485,15 @@ tag_ui: # 留空或 index
 # The formal of color: '#49B202'
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # White color will be shown as default
-background:
-# background: url(https://i.loli.net/2019/09/09/5oDRkWVKctx2b6A.png)
+# background:
+# background: url(https://s1.ax1x.com/2020/08/21/dNmndU.jpg) # 星空
+background: url(https://s1.ax1x.com/2020/08/21/dNjxPO.jpg) # 海贼王 
 
 
 
 
 # Show the footer background image (same as top_img)
-footer_bg: false
+footer_bg: true
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -607,7 +619,7 @@ aside:
     button:
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/BestDingSheng
   card_announcement:
     enable: true
     content: This is my Blog
@@ -622,7 +634,7 @@ aside:
   card_tags:
     enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
   card_archives:
     enable: true
     type: monthly # yearly or monthly
@@ -721,7 +733,7 @@ pjax: false
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)

@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
-root: /
+root: /blog2020/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -104,10 +104,28 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: https://github.com/BestDingSheng/2020blog.git
+  repo: https://github.com/BestDingSheng/blog2020.git
   branch: [gh-pages]
 - type: git
   repo: git@gitee.com:jsding/blog2020.git
   branch: [master]
 
 asset_inject: false  
+
+douban:
+  user: 139197539
+  builtin: true
+  book:
+    title: 'This is my book title'
+    quote: 'This is my book quote'
+  movie:
+    title: 'This is my movie title'
+    quote: 'This is my movie quote'
+  game:
+    title: 'This is my game title'
+    quote: 'This is my game quote'
+  timeout: 10000 
+
+aplayer:
+  meting: true
+  asset_inject: false  
