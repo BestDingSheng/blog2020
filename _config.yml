@@ -4,17 +4,18 @@
 
 # Site
 title: DesonBlog
-subtitle: 
-description: 
-keywords:
+subtitle: 丁盛博客 
+description:
+keywords: 
 author: Deson
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /blog2020/
+# url: http://yoursite.com
+url: http://jsding96.cn
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -107,7 +108,7 @@ deploy:
   repo: https://github.com/BestDingSheng/blog2020.git
   branch: [gh-pages]
 - type: git
-  repo: git@gitee.com:jsding/blog2020.git
+  repo: git@gitee.com:jsding/jsding.git
   branch: [master]
 
 asset_inject: false  

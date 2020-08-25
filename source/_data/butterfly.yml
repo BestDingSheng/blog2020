@@ -8,7 +8,7 @@
 
 menu:
   Home: / || fas fa-home
-  归档: /archives/ || fas fa-archive
+  # 归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   留言板: /messageboard/ || fas fa-envelope
@@ -17,7 +17,6 @@ menu:
     - 相册 || /Gallery/ || fas fa-picture-o
     - 电影 || /movies/ || fas fa-video
     - 读书 || /books/ || fas fa-book
-    - 游戏 || /games/ || fas fa-gamepad
     
   友情连接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
@@ -384,7 +383,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: 
+  custom_text: deson blog
   copyright: true # Copyright of theme and framework
   ICP: # Chinese ICP License
     enable: false
@@ -462,10 +461,10 @@ theme_color:
   code_foreground: "#F47466"
   code_background: "rgba(27, 31, 35, .05)"
   toc_color: "#00c4b6"
-  blockquote_padding_color: "#FFF"
+  blockquote_padding_color: "#00c4b6"
   # blockquote_padding_color: "#49b1f5"
   # blockquote_background_color: "#49b1f5"
-  blockquote_background_color: "#FFF"
+  blockquote_background_color: "#00c4b6"
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默認top_img全屏，site_info在中間)
@@ -487,13 +486,14 @@ tag_ui: # 留空或 index
 # White color will be shown as default
 # background:
 # background: url(https://s1.ax1x.com/2020/08/21/dNmndU.jpg) # 星空
-background: url(https://s1.ax1x.com/2020/08/21/dNjxPO.jpg) # 海贼王 
+# background: url(https://s1.ax1x.com/2020/08/21/dNjxPO.jpg) # 海贼王 
+background:
 
 
 
 
 # Show the footer background image (same as top_img)
-footer_bg: true
+footer_bg: false
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -513,7 +513,7 @@ canvas_ribbon:
 
 # Dynamic ribbon (動態彩帶)
 canvas_ribbon_piao:
-  enable: false
+  enable: true
   mobile: false
 
 # canvas_nest
@@ -612,17 +612,17 @@ preloader: false
 aside:
   enable: true
   mobile: true # display on mobile
-  position: left # left or right
+  position: right # left or right
   card_author:
     enable: true
-    description:
+    description: 一个想成为架构师的前端小垃圾~
     button:
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/BestDingSheng
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 来了就到留言板，留个言在走吧 ~ 
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -792,9 +792,15 @@ fragment_cache: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-  # - <link rel="stylesheet" href="/xxx.css">
+  - <link rel="stylesheet" href="/css/footer.css">
+  - <link rel="stylesheet" href="/css/clock.css"/>
   bottom:
-    # - <script src="xxxx"></script>
+    - <script src="/js/vue.min.js"></script>
+    - <script src="/js/clock.js"></script>
+    - <script type="text/javascript" src="https://www.airvisual.com/scripts/widget_v2.0.js"></script>
+    - <script> $(".card-weather").eq(0).insertAfter($(".date").eq(0))</script>
+    - <script> setTimeout(function(){$('.monoline').eq(0).html($(".monoline strong").eq(0).text().replace('°','℃'));},5000);</script>
+    - <script> $(".card-aqi").eq(0).insertAfter($(".card-weather").eq(0))</script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
