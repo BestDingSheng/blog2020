@@ -30,7 +30,7 @@
 }
 @font-face {
 font-family: 'UnidreamLED'; /*a name to be used later*/
-src: url('../fonts/UnidreamLED.ttf'); /*URL to font*/
+src: url('/fonts/UnidreamLED.ttf'); /*URL to font*/
  }
  .rounded-icon
  {-webkit-filter: brightness(0%)!important;
