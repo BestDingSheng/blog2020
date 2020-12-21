@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>GitHub+jsDelivr+PicGo搭建免费图床</title>
+      <link href="/2020/12/21/github-jsDelivr/"/>
+      <url>/2020/12/21/github-jsDelivr/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>使用GitHub仓库创建一个图床，存在的问题是国内访问github的速度不是很快，可以利用jsDelivr CDN加速访问（jsDelivr 是一个免费开源的 CDN 解决方案）国内该平台是首个「打通中国大陆与海外的免费CDN服务」，网页开发者无须担心中国防火墙问题而影响使用。</p><h2 id="创建-github-仓库"><a href="#创建-github-仓库" class="headerlink" title="创建 github 仓库"></a>创建 github 仓库</h2><p>​ 创建一个github仓库，专门存放上传的图片。</p><h2 id="生成-Access-token"><a href="#生成-Access-token" class="headerlink" title="生成 Access token"></a>生成 Access token</h2><p>按照下列步骤依次生成token,生成的token只显示一次,页面关闭后就看不了了,需要先将它复制下来。</p><p>setting -&gt; Developer settting -&gt; personal access tokens</p><h2 id="配置-PicGo-使用-jsDelivr-的-CDN"><a href="#配置-PicGo-使用-jsDelivr-的-CDN" class="headerlink" title="配置 PicGo 使用 jsDelivr 的 CDN"></a>配置 PicGo 使用 jsDelivr 的 CDN</h2><p>下载PicGo软件，安装。下载路径：<a href="https://github.com/Molunerfinn/picgo/releases">https://github.com/Molunerfinn/picgo/releases</a></p><p>打开PicGo进行配置</p><p>将刚才在Github上创建的仓库名和分支名填入设置中，生成的Token复制到配置中。</p><p>指定存储文件夹的路径，PicGo上传文件的时候，将自动在github仓库中创建此文件夹。</p><p>自定义域名：这个很有用，如果设置了自定义域名，PicGo生成的访问链接，将是【自定义域名+文件名】的拼接方式。因为我们需要使用jsDelivr加速访问，所以将自定义域名设置为【<a href="https://cdn.jsdelivr.net/gh/%E7%94%A8%E6%88%B7%E5%90%8D/%E5%9B%BE%E5%BA%8A%E4%BB%93%E5%BA%93%E5%90%8D">https://cdn.jsdelivr.net/gh/用户名/图床仓库名</a> 】。</p><p>如我的 <a href="https://cdn.jsdelivr.net/gh/BestDingSheng/ImgHosting">https://cdn.jsdelivr.net/gh/BestDingSheng/ImgHosting</a></p><p>当然PicGo还有许多配置，不懂可以看看PicGo提供的文档，<a href="https://picgo.github.io/PicGo-Doc/zh/guide/">https://picgo.github.io/PicGo-Doc/zh/guide/</a></p><!-- ## 参考资料[GitHub+jsDelivr+PicGo搭建免费图床](https://segmentfault.com/a/1190000020240864) -->]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+            <tag> 图床 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何优雅地在Github上贡献代码</title>
       <link href="/2020/12/21/github-pull-request/"/>
       <url>/2020/12/21/github-pull-request/</url>
