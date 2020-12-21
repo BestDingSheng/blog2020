@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>如何优雅地在Github上贡献代码</title>
+      <link href="/2020/12/21/github-pull-request/"/>
+      <url>/2020/12/21/github-pull-request/</url>
+      
+        <content type="html"><![CDATA[<h1 id="如何优雅地在Github上贡献代码"><a href="#如何优雅地在Github上贡献代码" class="headerlink" title="如何优雅地在Github上贡献代码"></a>如何优雅地在Github上贡献代码</h1><p>Github 相信已经成为家喻户晓的代码托管工具, 但访问了多位周围编程爱好者后发现, 对其的使用还仅限于 下载项目源码 和 备份项目源码 的程度, 今天我就来介绍一下一个比较重要的使用场景 贡献代码</p><p>以众安前端组件库<a href="https://github.com/ZhongAnTech/zarm">Zarm</a> 为例:</p><h2 id="Fork-项目"><a href="#Fork-项目" class="headerlink" title="Fork 项目"></a>Fork 项目</h2><p>首先需要fork这个项目, 进入项目页面, 点击右上角的Fork按钮</p><p>你的 github 帐号中会出现 zarm 这个项目</p><p>在本地电脑(Linux)上使用以下命令: 得到一个 zarm 文件夹</p><blockquote><p>git clone <a href="https://github.com/BestDingSheng/zarm.git">https://github.com/BestDingSheng/zarm.git</a></p></blockquote><p>获取原项目代码</p><p>进入 zarm 文件夹, 添加 zarm 的远程地址</p><blockquote><p>git remote add upstream <a href="https://github.com/ZhongAnTech/zarm.git">https://github.com/ZhongAnTech/zarm.git</a></p></blockquote><p>获取 zarm 最新源码</p><blockquote><p>git pull upstream master</p></blockquote><p>现在我们在 fork 来的 master 分支上, 这个 master 留作跟踪 upstream 的远程代码…</p><h2 id="创建分支"><a href="#创建分支" class="headerlink" title="创建分支"></a>创建分支</h2><p>好了, 现在可以开始贡献我们的代码了<br>按照国际惯例, 我们一般不在 master 上提交新代码, 而需要为新增的功能或者fixbug建立新分支, 再合并到 master 上, 使用以下代码创建分支</p><blockquote><p>git checkout -b branch1</p></blockquote><p>现在我们可以在分支上更改代码了</p><p>假设我们已经添加了一些代码, 提交到代码库</p><blockquote><p>git commit -a -m “new commit”</p></blockquote><h2 id="合并修改"><a href="#合并修改" class="headerlink" title="合并修改"></a>合并修改</h2><p>一个常见的问题是远程的 upstream (zarm) 有了新的更新, 从而会导致我们提交的 Pull Request 时会导致冲突, 因此我们可以在提交前先把远程其他开发者的commit和我们的commit合并.</p><p>使用以下代码切换到 master 分支:</p><blockquote><p>git checkout master</p></blockquote><p>使用以下代码拉出远程的最新代码:</p><blockquote><p>git pull upstream master</p></blockquote><p>切换回 branch1:</p><blockquote><p>git checkout branch1</p></blockquote><p>如果忘记自己之前建的分支名可以用 <code>git branch</code> 查看</p><p>把 master 的 commit 合并到 branch1:</p><blockquote><p>git rebase master</p></blockquote><p>把更新代码提交到自己的 branch1 中:</p><blockquote><p>git push origin branch1</p></blockquote><h2 id="Pull-Request"><a href="#Pull-Request" class="headerlink" title="Pull Request"></a>Pull Request</h2><p>提交 Pull Request<br>你可以在你的 github 代码仓库页面切换到 branches 页面点击 branch1 分支后点击 New pull request 按钮, 添加相关注释后提交.<br>OR<br>切换到 branch1 分支的代码仓库点击 Compare &amp; pull request 按钮, 添加相关注释后提交.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2020/08/06/hello-world/"/>
       <url>/2020/08/06/hello-world/</url>
