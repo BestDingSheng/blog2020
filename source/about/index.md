@@ -5,15 +5,31 @@ comments: false
 ---
 
 
-## 个人信息
+> 学如逆水行舟，不进则退。
 
-- 姓名: 丁盛 Deson 胖丁 
+
+```
+Name: Deson
+Age: 24
+Gender: male
+Address: Shang Hai
+Github: https://github.com/BestDingSheng
+Blog: http://jsding96.cn/
+Wechat: cXE3MjcwNDAxNDE
+
+```
+
+
+
+<!-- ## 个人信息
+
+- 常用昵称: 丁盛 丁丁丁盛 Deson 胖丁
 - 所在城市: 上海
 - 年龄: 24
 - 星座: 天秤座
 - 职业: 前端工程师
 - 工作单位: 众安保险
-- 联系方式: qq 727040141
+- 微信号: cXE3MjcwNDAxNDE=
 
 ## 个人技能
 
@@ -22,4 +38,4 @@ comments: false
 - JavaScript
 - Node
 - React
-- Vue
+- Vue -->

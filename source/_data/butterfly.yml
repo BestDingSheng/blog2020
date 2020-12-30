@@ -42,8 +42,8 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/xxxxx || Github
-  fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fab fa-github: https://github.com/bestdingsheng || Github
+  fas fa-envelope: mailto:727040141@qq.com || Email
 
 # search (搜索)
 # --------------------------------------
@@ -88,7 +88,8 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+# favicon: /img/favicon.png
+favicon: https://cdn.jsdelivr.net/gh/BestDingSheng/ImgHosting/Deson-PIC/20200826222101.ico
 
 # Avatar (頭像)
 avatar:
