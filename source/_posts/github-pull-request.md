@@ -1,7 +1,7 @@
 ---
 title: 如何优雅地在Github上贡献代码
 date: 2020-12-21 16:21:55
-cover: https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=355715222,2610893624&fm=26&gp=0.jpg
+cover: https://w.wallhaven.cc/full/x8/wallhaven-x81z9d.jpg
 tags:
     - github
 categories:

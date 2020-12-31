@@ -1,7 +1,7 @@
 ---
 title: GitHub+jsDelivr+PicGo搭建免费图床
 date: 2020-12-21 18:22:18
-cover: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1608618189612&di=959c95ab349c251f57b59ea069a08be0&imgtype=0&src=http%3A%2F%2Fpic.rmb.bdstatic.com%2Fa569977c2e7b68159a7921592f14a5a7.png
+cover: https://w.wallhaven.cc/full/6o/wallhaven-6oq5lq.jpg
 tags:
     - github
     - 图床

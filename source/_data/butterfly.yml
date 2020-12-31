@@ -9,17 +9,21 @@
 menu:
   Home: / || fas fa-home
   # 归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-  留言板: /messageboard/ || fas fa-envelope
+  标签||fas fa-list:
+    - tags || /tags/ || fas fa-tags
+    - categories || /categories/ || fas fa-folder-open
+
   娱乐||fas fa-list:
+    - 留言板 || /messageboard/ || fas fa-envelope
     - 音乐 || /music/ || fas fa-music
-    - 相册 || /Gallery/ || fas fa-picture-o
+    - 相册 || /Gallery/ || fas fa-camera-retro
     - 电影 || /movies/ || fas fa-video
     - 读书 || /books/ || fas fa-book
     
   友情连接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
+  随笔: http://notes.jsding96.cn/ || fas fa-leaf
+  导航: http://box.jsding96.cn || fas fa-car
 
 # Code Blocks (代碼相關)
 # --------------------------------------
