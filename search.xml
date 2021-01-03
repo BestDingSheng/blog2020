@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Mac 如何安装 python3</title>
+      <link href="/2021/01/03/python/install-python3/"/>
+      <url>/2021/01/03/python/install-python3/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>最近看 github 上<a href="https://github.com/ChinaVolvocars/jd_maotai_seckill">抢茅台的项目</a>比较火，找了个star 比较多的项目看了下，发现是用 python 写的，我 mac 电脑上的 python 的版本是 2.7 ，需要升级到 3.8 以上版本</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ul><li>安装地址：<a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></li><li>点击安装，全部使用默认操作即可，python3.8 默认安装地址：/Library/Frameworks/Python.framework/Versions/3.8</li></ul><h2 id="修改环境变量"><a href="#修改环境变量" class="headerlink" title="修改环境变量"></a>修改环境变量</h2><p>方法如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">open  ~/.bash_profile</span><br></pre></td></tr></table></figure><p>1 修改方式（可以直接复制）</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Setting PATH for Python 3.8</span></span><br><span class="line"><span class="comment"># The original version is saved in .bash_profile.pysave</span></span><br><span class="line">PATH=<span class="string">&quot;/Library/Frameworks/Python.framework/Versions/3.8/bin:<span class="variable">$&#123;PATH&#125;</span>&quot;</span></span><br><span class="line"><span class="built_in">export</span> PATH</span><br><span class="line"><span class="built_in">export</span> PATH=<span class="string">&quot;/usr/local/opt/python@3.8/bin:<span class="variable">$PATH</span>&quot;</span></span><br><span class="line"><span class="built_in">alias</span> python=<span class="string">&quot;/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8&quot;</span></span><br><span class="line"><span class="built_in">alias</span> pip=<span class="string">&quot;/Library/Frameworks/Python.framework/Versions/3.8/bin/pip3.8&quot;</span></span><br></pre></td></tr></table></figure><p>2 source ~/bash_profile<br>3 然后打开终端，输入 python –version </p><h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>如果要使用 python3 运行脚本 或者 安装东西的话</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">python3 main.py</span><br><span class="line">pip3 install</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mac </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Mysql 在终端中如何使用</title>
       <link href="/2020/12/30/mysql-learn-2/"/>
       <url>/2020/12/30/mysql-learn-2/</url>
@@ -55,8 +80,8 @@
     
     <entry>
       <title>GitHub+jsDelivr+PicGo搭建免费图床</title>
-      <link href="/2020/12/21/github-jsDelivr/"/>
-      <url>/2020/12/21/github-jsDelivr/</url>
+      <link href="/2020/12/21/github/github-jsDelivr/"/>
+      <url>/2020/12/21/github/github-jsDelivr/</url>
       
         <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>使用GitHub仓库创建一个图床，存在的问题是国内访问github的速度不是很快，可以利用jsDelivr CDN加速访问（jsDelivr 是一个免费开源的 CDN 解决方案）国内该平台是首个「打通中国大陆与海外的免费CDN服务」，网页开发者无须担心中国防火墙问题而影响使用。</p><h2 id="创建-github-仓库"><a href="#创建-github-仓库" class="headerlink" title="创建 github 仓库"></a>创建 github 仓库</h2><p>​ 创建一个github仓库，专门存放上传的图片。</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BestDingSheng/ImgHosting/Deson-PIC/20201222112944.png"></p><h2 id="生成-Access-token"><a href="#生成-Access-token" class="headerlink" title="生成 Access token"></a>生成 Access token</h2><p>按照下列步骤依次生成token,生成的token只显示一次,页面关闭后就看不了了,需要先将它复制下来。</p><p>setting -&gt; Developer settting -&gt; personal access tokens</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BestDingSheng/ImgHosting/Deson-PIC/20201222113152.png"></p><h2 id="配置-PicGo-使用-jsDelivr-的-CDN"><a href="#配置-PicGo-使用-jsDelivr-的-CDN" class="headerlink" title="配置 PicGo 使用 jsDelivr 的 CDN"></a>配置 PicGo 使用 jsDelivr 的 CDN</h2><p>下载PicGo软件，安装。下载路径：<a href="https://github.com/Molunerfinn/picgo/releases">https://github.com/Molunerfinn/picgo/releases</a></p><p>打开PicGo进行配置 将刚才在Github上创建的仓库名和分支名填入设置中，生成的Token复制到配置中。</p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BestDingSheng/ImgHosting/Deson-PIC/20201222113258.png"></p><p>指定存储文件夹的路径，PicGo上传文件的时候，将自动在github仓库中创建此文件夹。</p><p>如果设置了自定义域名，PicGo生成的访问链接，将是【自定义域名+文件名】的拼接方式。因为我们需要使用jsDelivr加速访问，所以将自定义域名设置为【<a href="https://cdn.jsdelivr.net/gh/%E7%94%A8%E6%88%B7%E5%90%8D/%E5%9B%BE%E5%BA%8A%E4%BB%93%E5%BA%93%E5%90%8D">https://cdn.jsdelivr.net/gh/用户名/图床仓库名</a> 】。</p><p>如我的 <a href="https://cdn.jsdelivr.net/gh/BestDingSheng/ImgHosting">https://cdn.jsdelivr.net/gh/BestDingSheng/ImgHosting</a></p><p>当然PicGo还有许多配置，不懂可以看看PicGo提供的文档，<a href="https://picgo.github.io/PicGo-Doc/zh/guide/">https://picgo.github.io/PicGo-Doc/zh/guide/</a></p><!-- ## 参考资料[GitHub+jsDelivr+PicGo搭建免费图床](https://segmentfault.com/a/1190000020240864) -->]]></content>
       
@@ -82,8 +107,8 @@
     
     <entry>
       <title>如何优雅地在Github上贡献代码</title>
-      <link href="/2020/12/21/github-pull-request/"/>
-      <url>/2020/12/21/github-pull-request/</url>
+      <link href="/2020/12/21/github/github-pull-request/"/>
+      <url>/2020/12/21/github/github-pull-request/</url>
       
         <content type="html"><![CDATA[<h1 id="如何优雅地在Github上贡献代码"><a href="#如何优雅地在Github上贡献代码" class="headerlink" title="如何优雅地在Github上贡献代码"></a>如何优雅地在Github上贡献代码</h1><p>Github 相信已经成为家喻户晓的代码托管工具, 但访问了多位周围编程爱好者后发现, 对其的使用还仅限于 下载项目源码 和 备份项目源码 的程度, 今天我就来介绍一下一个比较重要的使用场景 贡献代码</p><p>以众安前端组件库<a href="https://github.com/ZhongAnTech/zarm">Zarm</a> 为例:</p><h2 id="Fork-项目"><a href="#Fork-项目" class="headerlink" title="Fork 项目"></a>Fork 项目</h2><p>首先需要fork这个项目, 进入项目页面, 点击右上角的Fork按钮</p><p>你的 github 帐号中会出现 zarm 这个项目</p><p>在本地电脑(Linux)上使用以下命令: 得到一个 zarm 文件夹</p><blockquote><p>git clone <a href="https://github.com/BestDingSheng/zarm.git">https://github.com/BestDingSheng/zarm.git</a></p></blockquote><p>获取原项目代码</p><p>进入 zarm 文件夹, 添加 zarm 的远程地址</p><blockquote><p>git remote add upstream <a href="https://github.com/ZhongAnTech/zarm.git">https://github.com/ZhongAnTech/zarm.git</a></p></blockquote><p>获取 zarm 最新源码</p><blockquote><p>git pull upstream master</p></blockquote><p>现在我们在 fork 来的 master 分支上, 这个 master 留作跟踪 upstream 的远程代码…</p><h2 id="创建分支"><a href="#创建分支" class="headerlink" title="创建分支"></a>创建分支</h2><p>好了, 现在可以开始贡献我们的代码了<br>按照国际惯例, 我们一般不在 master 上提交新代码, 而需要为新增的功能或者fixbug建立新分支, 再合并到 master 上, 使用以下代码创建分支</p><blockquote><p>git checkout -b branch1</p></blockquote><p>现在我们可以在分支上更改代码了</p><p>假设我们已经添加了一些代码, 提交到代码库</p><blockquote><p>git commit -a -m “new commit”</p></blockquote><h2 id="合并修改"><a href="#合并修改" class="headerlink" title="合并修改"></a>合并修改</h2><p>一个常见的问题是远程的 upstream (zarm) 有了新的更新, 从而会导致我们提交的 Pull Request 时会导致冲突, 因此我们可以在提交前先把远程其他开发者的commit和我们的commit合并.</p><p>使用以下代码切换到 master 分支:</p><blockquote><p>git checkout master</p></blockquote><p>使用以下代码拉出远程的最新代码:</p><blockquote><p>git pull upstream master</p></blockquote><p>切换回 branch1:</p><blockquote><p>git checkout branch1</p></blockquote><p>如果忘记自己之前建的分支名可以用 <code>git branch</code> 查看</p><p>把 master 的 commit 合并到 branch1:</p><blockquote><p>git rebase master</p></blockquote><p>把更新代码提交到自己的 branch1 中:</p><blockquote><p>git push origin branch1</p></blockquote><h2 id="Pull-Request"><a href="#Pull-Request" class="headerlink" title="Pull Request"></a>Pull Request</h2><p>提交 Pull Request<br>你可以在你的 github 代码仓库页面切换到 branches 页面点击 branch1 分支后点击 New pull request 按钮, 添加相关注释后提交.<br>OR<br>切换到 branch1 分支的代码仓库点击 Compare &amp; pull request 按钮, 添加相关注释后提交.</p>]]></content>
       
