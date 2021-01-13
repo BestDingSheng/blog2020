@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>收藏的语录</title>
+      <link href="/2021/01/13/quotations/ohter/"/>
+      <url>/2021/01/13/quotations/ohter/</url>
+      
+        <content type="html"><![CDATA[<h2 id="我们所有人，都是终端，一个终端的背后至少有："><a href="#我们所有人，都是终端，一个终端的背后至少有：" class="headerlink" title="我们所有人，都是终端，一个终端的背后至少有："></a>我们所有人，都是终端，一个终端的背后至少有：</h2><ul><li>家族资源「几十上百号人生样本、做人做事学问、数十个行业资源」</li><li>公司资源「几十上万个可连接的专业人士和行业资源及公司光环」</li><li>社会资源「几十到上千个社会人脉，数十个行业及资本」</li></ul><p>你作为终端，如果脱离这些核心资源，这就是一个废端，如果有这些资源加成，你就是一个超级接口，人生就是在打磨这个终端和背后的资源，让终端可以负载更强的电压电流输入，可以启动背后更多更优质的资源，整合他们，不断升级终端，让这个终端，变成核心节点</p><p>当然也可以是一个超级单一功能终端，比如火箭发动机专家，四五十年都花在一个纵深领域，不问身外事，无论哪种，终端的连接能力 和 IO 能力，背负家国使命也好，实现自我价值也罢，修炼到极致即可</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 语录 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>命名规范</title>
+      <link href="/2021/01/11/name-ruls/"/>
+      <url>/2021/01/11/name-ruls/</url>
+      
+        <content type="html"><![CDATA[<h1 id="命名规范"><a href="#命名规范" class="headerlink" title="命名规范"></a>命名规范</h1><p>驼峰式命名法介绍</p><ul><li>Pascal Case 大驼峰式命名法<br>  首字母大写。eg：StudentInfo、UserInfo、ProductInfo</li><li>Camel Case 小驼峰式命名法<br>  首字母小写。eg：studentInfo、userInfo、productInfo</li></ul><h2 id="文件资源命名"><a href="#文件资源命名" class="headerlink" title="文件资源命名"></a>文件资源命名</h2><ul><li>文件名不得含有空格</li><li>文件名建议只使用小写字母，不使用大写字母。( 为了醒目，某些说明文件的文件名，可以使用大写字母，比如README、LICENSE。)</li><li>文件名包含多个单词时，单词之间建议使用半角的连词线 ( - ) 分隔。</li><li>引入资源使用相对路径，不要指定资源所带的具体协议 ( http:, https: ) ，除非这两者协议都不可用。</li></ul><p>推荐 </p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;//cdn.com/foundation.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><p>不推荐 </p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;http://cdn.com/foundation.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure><h2 id="变量命名"><a href="#变量命名" class="headerlink" title="变量命名"></a>变量命名</h2><p>命名方式：小驼峰式命名方法。<br>命名规范：类型 + 对象描述的方式。</p><p>推荐  </p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> tableTitle = <span class="string">&quot;LoginTable&quot;</span>;</span><br></pre></td></tr></table></figure><p>不推荐  </p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> getTitle = <span class="string">&quot;LoginTable&quot;</span>;</span><br></pre></td></tr></table></figure><h2 id="常量命名"><a href="#常量命名" class="headerlink" title="常量命名"></a>常量命名</h2><p>命名方法：全部大写<br>命名规范：使用大写字母和下划线来组合命名，下划线用以分割单词。</p><p>推荐</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> MAX_COUNT = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">var</span> URL = <span class="string">&#x27;http://www.baidu.com&#x27;</span>;</span><br></pre></td></tr></table></figure><h2 id="函数命名"><a href="#函数命名" class="headerlink" title="函数命名"></a>函数命名</h2><p>命名方式：小驼峰方式 ( 构造函数使用大驼峰命名法 )<br>命名规则：前缀为动词</p><table><thead><tr><th>动词</th><th>含义</th><th>返回值</th></tr></thead><tbody><tr><td>can</td><td>判断是否可执行某个动作（权限）</td><td>函数返回一个布尔值。<br>true：可执行；false：不可执行</td></tr><tr><td>has</td><td>判断是否含有某个值</td><td>函数返回一个布尔值。<br>true：含有此值；false：不含有此值</td></tr><tr><td>is</td><td>判断是否为某个值</td><td>函数返回一个布尔值。<br>true：为某个值；false：不为某个值</td></tr><tr><td>get</td><td>获取某个值</td><td>函数返回一个非布尔值</td></tr><tr><td>set</td><td>设置某个值</td><td>无返回值、返回是否设置成功或者返回链式对象</td></tr></tbody></table><p>推荐</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 是否可阅读</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">canRead</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 获取姓名</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getName</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">this</span>.name</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="类的成员"><a href="#类的成员" class="headerlink" title="类的成员"></a>类的成员</h2><p>公共属性和方法：同变量命名方式<br>私有属性和方法：前缀为下划线(_)后面跟公共属性和方法一样的命名方式</p><p>推荐</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Student</span>(<span class="params">name</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> _name = name; <span class="comment">// 私有成员</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 公共方法</span></span><br><span class="line">    <span class="built_in">this</span>.getName = <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> _name;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 公共方式</span></span><br><span class="line">    <span class="built_in">this</span>.setName = <span class="function"><span class="keyword">function</span>(<span class="params">value</span>) </span>&#123;</span><br><span class="line">        _name = value;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">var</span> st = <span class="keyword">new</span> Student(<span class="string">&#x27;tom&#x27;</span>);</span><br><span class="line">st.setName(<span class="string">&#x27;jerry&#x27;</span>);</span><br><span class="line"><span class="built_in">console</span>.log(st.getName()); <span class="comment">// =&gt; jerry：输出_name私有变量的值</span></span><br></pre></td></tr></table></figure><h2 id="React组件命名"><a href="#React组件命名" class="headerlink" title="React组件命名"></a>React组件命名</h2><p>命名方式：大驼峰式命名法</p><p>推荐</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Button</span><br><span class="line">SwipeAction</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 规范 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2020.01.04 - 2020.01.10 周总结</title>
       <link href="/2021/01/09/week/2021-01-09/"/>
       <url>/2021/01/09/week/2021-01-09/</url>
