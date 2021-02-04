@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>日常使用的工具</title>
+      <link href="/2021/02/04/usageTool/"/>
+      <url>/2021/02/04/usageTool/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote><p>过段时间要换电脑了,准备把自己日常高频使用到的一些工具放在这里,也方便自己查找。</p></blockquote><h2 id="mac"><a href="#mac" class="headerlink" title="mac"></a>mac</h2><ul><li>Brightness Slider  外接显示器的时候没办法控制亮度 —-这直接在 app store 里面搜索就行 </li><li>spectacle 分屏软件 <a href="https://www.spectacleapp.com/">download</a></li><li>worktile 团队协作软件 可以列一些 todo list <a href="https://worktile.com/">download</a></li><li>uTools 工具集 <a href="https://u.tools/">download</a></li><li>f.lux 自动调节饱和度 <a href="https://justgetflux.com/">download</a></li><li>picGo 图床工具</li></ul><h2 id="github"><a href="#github" class="headerlink" title="github"></a>github</h2><ul><li><a href="https://github.com/521xueweihan/GitHub520">github520</a> 这个仓库解决了国内访问 github 速度慢的问题</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日常工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>nvm</title>
       <link href="/2021/02/02/nvm/"/>
       <url>/2021/02/02/nvm/</url>
