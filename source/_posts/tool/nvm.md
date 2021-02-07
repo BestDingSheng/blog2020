@@ -1,5 +1,5 @@
 ---
-title: nvm
+title: nvm 快速入门
 date: 2021-02-02 10:14:25
 cover: https://w.wallhaven.cc/full/o3/wallhaven-o3d1g9.jpg
 tags:
