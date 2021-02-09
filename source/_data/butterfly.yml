@@ -98,7 +98,7 @@ favicon: https://cdn.jsdelivr.net/gh/BestDingSheng/ImgHosting/Deson-PIC/20200826
 # Avatar (頭像)
 avatar:
   # img: /img/avatar.png
-  img: https://s1.ax1x.com/2020/08/21/dNxpkV.jpg
+  img: https://cdn.jsdelivr.net/gh/BestDingSheng/ImgHosting/Deson-PIC/20210208223244.jpeg
   effect: false
 
 # the banner image of home page
@@ -620,7 +620,7 @@ aside:
   position: right # left or right
   card_author:
     enable: true
-    description: 一个想成为架构师的前端小垃圾~
+    description: 2021 深度思考⇌脱离舒适区
     button:
       icon: fab fa-github
       text: Follow Me
