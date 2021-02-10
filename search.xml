@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>小程序开发资料收集</title>
+      <link href="/2021/02/10/fe/samll-program/"/>
+      <url>/2021/02/10/fe/samll-program/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>这几天在做小程序,发现每次登陆或者去看文档都需要用百度去搜索相关文档和资料,准备把小程序开发会用到东西整合到这里来</p></blockquote><h2 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h2><ul><li><a href="https://taro-docs.jd.com/taro/docs/README">taro</a></li><li><a href="https://taro-ui.jd.com/#/">taro-ui</a></li><li><a href="https://mp.weixin.qq.com/">微信小程序登陆</a></li><li><a href="https://developers.weixin.qq.com/miniprogram/dev/framework/">微信小程序官方文档</a></li><li><a href="https://microapp.bytedance.com/">字节跳动小程序</a></li><li><a href="https://smartprogram.baidu.com/developer/index.html">百度小程序</a></li></ul><h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><ul><li><a href="https://loading.io/">loading效果</a></li><li><a href="https://www.npmjs.com/package/react-copy-to-clipboard">react-copy-to-clipboard</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 小程序 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>微信公众号能用到一些工具</title>
       <link href="/2021/02/08/media/01/"/>
       <url>/2021/02/08/media/01/</url>

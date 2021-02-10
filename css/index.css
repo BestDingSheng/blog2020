@@ -2374,7 +2374,7 @@ blockquote footer cite:before {
   float: left;
   overflow: hidden;
   margin: 15px 7px;
-  width: calc(100% / 3 - 15px);
+  width: calc(100% / 2 - 15px);
   height: 90px;
   border-radius: 8px;
   line-height: 17px;
