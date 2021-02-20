@@ -9,3 +9,14 @@
       link: https://www.scarsu.com
       avatar: https://scarsu.oss-cn-shanghai.aliyuncs.com/picgo20201012144739.jpg
       descr: 一个程序媛关于【自律/读书认知/Web前端技术】的一些个人分享
+    - name: lencx的博客
+      link: https://nofwl.com
+      avatar: https://static.nofwl.com/lencx.png
+      descr: 折腾 ⇌ 迷茫 ⇌ 思考 ing，在路上...
+    - name: 江湖再见
+      link: https://ruizhengyun.cn/
+      avatar: https://ruizhengyun.cn/assets/logo.jpeg
+      descr: 追求卓越 一切都好
+
+
+# themes/butterfly/source/css/_layout/flink.styl 样式修改
