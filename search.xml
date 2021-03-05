@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>记录办理户口及档案的一天</title>
+      <link href="/2021/03/05/quotations/05/"/>
+      <url>/2021/03/05/quotations/05/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote><p>由于宝宝的的医保和生育基金需要在两个月内办完，这些前提条件都是需要依赖宝宝户口的所以这次回去主要是给宝宝办理户口</p></blockquote><h2 id="交通"><a href="#交通" class="headerlink" title="交通"></a>交通</h2><p>老家目前还没通高铁,回去不太方便，如果不是开车回家的话都是需要转车的 回去路线一般有 高铁到安庆在大巴到家,这次走的是另外一条路线到九江然后在大巴回家</p><ul><li>目的地：上海南 - 九江</li><li>班次： k1127</li><li>类型：绿皮硬座</li><li>价格：81块钱</li><li>时间：17:28 - 03:35</li></ul><p>到九江出站后,门口有很多黑车到镇上 45块钱，这次黑车师傅把手机号码留给我了说下次回去直接电话提前联系他就行了。</p><ul><li>陈师傅 18779222291 九江到复兴</li></ul><h2 id="办户口"><a href="#办户口" class="headerlink" title="办户口"></a>办户口</h2><p>派出所上班时间 8点12点 2点到5点 , 办理户口需要的材料</p><ul><li>父亲户口本</li><li>夫妻双方结婚证</li><li>宝宝出生证明 副业一定要有 派出所留档 不然办不了户口</li><li>电话 0556-5651808</li></ul><p>办理户口的体验还是挺不错的,效率很快基本 10 分钟所有的东西都办完了, 这里要给户籍的警察小姐姐点赞</p><h2 id="办理档案"><a href="#办理档案" class="headerlink" title="办理档案"></a>办理档案</h2><p>这次回家除了给宝宝上户口外还有件大事就是把自己的档案放到老家人才中心 。</p><ul><li>路线：复兴-宿松 </li><li>价格：18元</li><li>时长：1小时左右</li><li>单位：宿松县劳动就业管理局</li><li>地址：人民路214号 宿松县人社局 6楼</li><li>电话：0556 - 5665160</li></ul><h3 id="档案需要材料"><a href="#档案需要材料" class="headerlink" title="档案需要材料"></a>档案需要材料</h3><ul><li>高中档案</li><li>最高学历 学信网电子注册备案表</li><li>最高学历 毕业证复印件</li><li>身份证 复印件</li></ul><h2 id="回城"><a href="#回城" class="headerlink" title="回城"></a>回城</h2><p>因为是在县里办理档案，回上海的路线选择是 宿松到安庆 在从安庆高铁到上海 </p><ul><li>票价 57元</li><li>类型 大巴</li><li>路线 宿松-安庆 </li><li>时间: 2小时20分左右</li><li>注意 需要选择走高速的大巴</li></ul><p>安庆汽车站到安庆高铁距离1.4公里 三轮车 6块钱</p><ul><li>票价 238</li><li>路线 安庆-上海站</li><li>时间 3小时47分</li></ul><p>上海站到出租屋</p><ul><li>路程 12公里</li><li>打车 50块左右</li><li>时间 20分钟左右</li></ul><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这次回家没有到老家去看看爷爷，这个是比较遗憾的一点 ，3月3号回去的 3月4号晚上到的上海 回去基本上没有怎么休息 不是在车上就是在办事 而且回来的时候 还带了60近左右腌制好的大鱼大肉 哈哈哈 太久没做过体力活了 差点把我的小身板给压坏了 以后还是要多锻炼 做点力量训练 这次办事还算是比较顺利 期待下一次回家 。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 户口 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>nginx 简单使用</title>
+      <link href="/2021/02/25/back-end/nginx/"/>
+      <url>/2021/02/25/back-end/nginx/</url>
+      
+        <content type="html"><![CDATA[<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="centos-7"><a href="#centos-7" class="headerlink" title="centos 7"></a>centos 7</h3><h4 id="命令安装"><a href="#命令安装" class="headerlink" title="命令安装"></a>命令安装</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ sudo yum -y install nginx   <span class="comment"># 安装 nginx</span></span><br><span class="line">$ sudo yum remove nginx  <span class="comment"># 卸载 nginx</span></span><br></pre></td></tr></table></figure><p>使用 yum 进行 Nginx 安装时，Nginx 配置文件在 /etc/nginx 目录下。</p><h4 id="配置nginx服务"><a href="#配置nginx服务" class="headerlink" title="配置nginx服务"></a>配置nginx服务</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ sudo systemctl <span class="built_in">enable</span> nginx <span class="comment"># 设置开机启动 </span></span><br><span class="line">$ sudo service nginx start <span class="comment"># 启动 nginx 服务</span></span><br><span class="line">$ sudo service nginx stop <span class="comment"># 停止 nginx 服务</span></span><br><span class="line">$ sudo service nginx restart <span class="comment"># 重启 nginx 服务</span></span><br><span class="line">$ sudo service nginx reload <span class="comment"># 重新加载配置，一般是在修改过 nginx 配置文件时使用。</span></span><br></pre></td></tr></table></figure><h2 id="SSL"><a href="#SSL" class="headerlink" title="SSL"></a>SSL</h2><ul><li>nginx 配置 ssl <a href="https://www.cnblogs.com/djjlovedjj/p/9910920.html">ssl</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 后端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> express </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>npm 常用命令</title>
       <link href="/2021/02/18/fe/npm/"/>
       <url>/2021/02/18/fe/npm/</url>
