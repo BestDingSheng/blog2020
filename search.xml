@@ -4,11 +4,61 @@
   
     
     <entry>
+      <title>git 命令笔记</title>
+      <link href="/2021/03/14/git/git-img/"/>
+      <url>/2021/03/14/git/git-img/</url>
+      
+        <content type="html"><![CDATA[<h2 id="git-命令笔记"><a href="#git-命令笔记" class="headerlink" title="git 命令笔记"></a>git 命令笔记</h2><p>今天在 github 看到一个 git 仓库写的还不错,作者总结了很多 git 中的一些技巧, 我的图片贴过来了 <a href="https://github.com/521xueweihan/git-tips">源repo</a></p><p><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/BestDingSheng/ImgHosting/Deson-PIC/20210314203448.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>之前学习创建的一些仓库</title>
+      <link href="/2021/03/12/fe/learn-repo/"/>
+      <url>/2021/03/12/fe/learn-repo/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><p>学习新技术的时候有时候会创建一个 github 仓库用来存放代码和笔记,时间久了容易忘记这里把之前的仓库记录下来方便查找</p></blockquote><h2 id="仓库"><a href="#仓库" class="headerlink" title="仓库"></a>仓库</h2><ul><li><a href="https://github.com/BestDingSheng/learn-ssr">learn-ssr</a>  学习服务端渲染</li><li><a href="https://github.com/BestDingSheng/ts-learn">learn-ts</a> ts环境搭建</li><li><a href="https://github.com/BestDingSheng/tianxing-api">learn-mongo</a> mongod</li><li><a href="https://github.com/BestDingSheng/vue-dev">learn-vue</a> vue 源码学习</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>科学上网</title>
       <link href="/2021/03/08/tool/network/"/>
       <url>/2021/03/08/tool/network/</url>
       
-        <content type="html"><![CDATA[<h2 id="ssr搭建教程"><a href="#ssr搭建教程" class="headerlink" title="ssr搭建教程"></a>ssr搭建教程</h2><ul><li><a href="https://github.com/Alvin9999/new-pac/wiki">ssr搭建 &amp;&amp; 免费资源</a></li></ul><h2 id="ssr-软件"><a href="#ssr-软件" class="headerlink" title="ssr 软件"></a>ssr 软件</h2><ul><li><a href="https://github.com/yichengchen/clashX/releases">clashX</a></li></ul><h2 id="ssr-服务商"><a href="#ssr-服务商" class="headerlink" title="ssr 服务商"></a>ssr 服务商</h2><ul><li><a href="https://cylink.store/user">次元</a></li><li><a href="https://v2rss.ga/auth/register">v2rss</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="ssr搭建教程"><a href="#ssr搭建教程" class="headerlink" title="ssr搭建教程"></a>ssr搭建教程</h2><ul><li><a href="https://github.com/Alvin9999/new-pac/wiki">ssr搭建 &amp;&amp; 免费资源</a></li></ul><h2 id="ssr-软件"><a href="#ssr-软件" class="headerlink" title="ssr 软件"></a>ssr 软件</h2><ul><li><a href="https://github.com/yichengchen/clashX/releases">clashX</a></li><li><a href="https://github.com/shadowsocksr-backup/ShadowsocksX-NG/releases">ShadowsocksX</a></li></ul><h2 id="ssr-服务商"><a href="#ssr-服务商" class="headerlink" title="ssr 服务商"></a>ssr 服务商</h2><ul><li><a href="https://cylink.store/user">次元</a></li><li><a href="https://v2rss.ga/auth/register">v2rss</a></li></ul>]]></content>
       
       
       <categories>
