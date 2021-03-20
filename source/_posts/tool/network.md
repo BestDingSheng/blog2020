@@ -16,6 +16,7 @@ categories:
 ## ssr 软件
 
 - [clashX](https://github.com/yichengchen/clashX/releases)
+- [ShadowsocksX](https://github.com/shadowsocksr-backup/ShadowsocksX-NG/releases)
 
 ## ssr 服务商
 
