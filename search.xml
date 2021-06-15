@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>如何完成目标</title>
+      <link href="/2021/06/15/other/01/"/>
+      <url>/2021/06/15/other/01/</url>
+      
+        <content type="html"><![CDATA[<p>执行力是什么？百科上这么说的，所谓执行力，指的是贯彻战略意图，完成预定目标的实际操作能力。我们拆分下：</p><ul><li>首先我们需要有一个明确的目标，知道我们实际行动是做什么事情（Plan）</li><li>执行力是一种能力，是一种操作能力，也就是说需要我们付出实际行动（Do）</li><li>然后我们要理解目标，防止在实际操作的过程中误入歧途（Check）</li><li>如果误入歧途怎么办？及时作出调整，或者修正初始目标（Adjust）</li></ul><h2 id="为何我的执行力不强？"><a href="#为何我的执行力不强？" class="headerlink" title="为何我的执行力不强？"></a>为何我的执行力不强？</h2><p><code>简单来说，执行力就是做事的能力</code>，上面的拆分其实就是 PDCA 工作法的展示，这是一个循环的过程，调整目标之后，进入下一个 <code>Adjust-Plan-Do-Check</code> 的过程。那为什么你的执行力不强呢？其实道理也很简单，从上四个步骤中找原因：</p><h3 id="计划-plan"><a href="#计划-plan" class="headerlink" title="计划 plan"></a>计划 plan</h3><ul><li>目标含糊，不知道自己要做什么</li><li>没有工具和手段来衡量目标</li><li>目标太大，几乎无法达到</li><li>目标太多，没有重点，目标之间没有关联</li><li>没有设定期限，无时限地行动下去</li></ul><h3 id="执行-do"><a href="#执行-do" class="headerlink" title="执行 do"></a>执行 do</h3><ul><li>能力不足，无法达到</li><li>条件受限，无法达到</li></ul><h3 id="检查-check"><a href="#检查-check" class="headerlink" title="检查 check"></a>检查 check</h3><ul><li>检查不及时，偏离轨道太久，可能已经没有继续的欲望了</li><li>检查项与考核内容不一致</li><li>越查事情越多，做着做着，脱离了目标</li></ul><h3 id="调整-Adjust"><a href="#调整-Adjust" class="headerlink" title="调整 Adjust"></a>调整 Adjust</h3><ul><li>没有这个步骤</li></ul><p>Plan 步骤中提到的 5 点其实就是 S.M.A.R.T 原则的基本要求，这 5 点都是反例。如果你定好了一个恰当的目标，在行动过程中不断地对焦，那么事情就不会过于脱轨。</p><h2 id="目标设置的合理性"><a href="#目标设置的合理性" class="headerlink" title="目标设置的合理性"></a>目标设置的合理性</h2><p>如何判断目标是否恰当呢，我的经验是：「有趣且有挑战」，比如：</p><ul><li>我要减肥并不是很好的目标，我想在沙滩上秀腹肌给一群妹纸看就好多了，你可以在每次健身和节食的时候都想象下那个画面</li><li>我要提升英语并不是很好的目标，我想一个人去国外旅游，欣赏国外的美景，尝遍国外的美食，这个画面就比较有意思了</li><li>我今年要看完二十本书并不是一个很好的目标，我想提升自己的结构化思考力，在跟人聊天、演讲、汇报的时候更顺利，这就有点动力了</li></ul><p>所以说，很多时候并不是你执行力不够，而是你的目标定的没有吸引力，或者目标定的太大或太小，如果你的目标刚刚好，你仍然不能坚持下去，那只有两个原因：</p><ul><li>你这个人啊，太没有毅力了</li><li>你这个目标达不达成，可能对你来说，无所谓（还是目标的吸引力不够）</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ssh 免密登录</title>
       <link href="/2021/03/17/server/ssh-config/"/>
       <url>/2021/03/17/server/ssh-config/</url>
@@ -58,7 +83,7 @@
       <link href="/2021/03/15/tool/vscode-remote-editfile/"/>
       <url>/2021/03/15/tool/vscode-remote-editfile/</url>
       
-        <content type="html"><![CDATA[<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="本地"><a href="#本地" class="headerlink" title="本地"></a>本地</h3><p>Vscode 安装  Remote VSCode 插件</p><h3 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo wget -O &#x2F;usr&#x2F;local&#x2F;bin&#x2F;rmate https:&#x2F;&#x2F;raw.github.com&#x2F;aurora&#x2F;rmate&#x2F;master&#x2F;rmate</span><br><span class="line">sudo chmod a+x &#x2F;usr&#x2F;local&#x2F;bin&#x2F;rmate</span><br></pre></td></tr></table></figure><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="本地-1"><a href="#本地-1" class="headerlink" title="本地"></a>本地</h3><p>在本机的 VSCode 中按 F1 ,然后输入 Remote: Start server ,回车后启动服务</p><p>打开自带终端，在命令行中输入 ssh -R 52698:127.0.0.1:52698 <a href="mailto:&#x72;&#111;&#111;&#116;&#x40;&#49;&#x30;&#54;&#46;&#x35;&#x32;&#x2e;&#x32;&#x35;&#52;&#x2e;&#x31;&#51;&#53;">&#x72;&#111;&#111;&#116;&#x40;&#49;&#x30;&#54;&#46;&#x35;&#x32;&#x2e;&#x32;&#x35;&#52;&#x2e;&#x31;&#51;&#53;</a> -p 22</p><p>然后在终端中找到你要修改的文件，输入 rmate 文件名</p><h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul><li><a href="https://blog.csdn.net/riba2534/article/details/89678622">使用 VSCode 编辑远程服务器文件</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="本地"><a href="#本地" class="headerlink" title="本地"></a>本地</h3><p>Vscode 安装  Remote VSCode 插件</p><h3 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo wget -O &#x2F;usr&#x2F;local&#x2F;bin&#x2F;rmate https:&#x2F;&#x2F;raw.github.com&#x2F;aurora&#x2F;rmate&#x2F;master&#x2F;rmate</span><br><span class="line">sudo chmod a+x &#x2F;usr&#x2F;local&#x2F;bin&#x2F;rmate</span><br></pre></td></tr></table></figure><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="本地-1"><a href="#本地-1" class="headerlink" title="本地"></a>本地</h3><p>在本机的 VSCode 中按 F1 ,然后输入 Remote: Start server ,回车后启动服务</p><p>打开自带终端，在命令行中输入 ssh -R 52698:127.0.0.1:52698 <a href="mailto:&#114;&#x6f;&#111;&#116;&#x40;&#x31;&#x30;&#x36;&#46;&#x35;&#x32;&#46;&#x32;&#53;&#x34;&#x2e;&#x31;&#51;&#53;">&#114;&#x6f;&#111;&#116;&#x40;&#x31;&#x30;&#x36;&#46;&#x35;&#x32;&#46;&#x32;&#53;&#x34;&#x2e;&#x31;&#51;&#53;</a> -p 22</p><p>然后在终端中找到你要修改的文件，输入 rmate 文件名</p><h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ul><li><a href="https://blog.csdn.net/riba2534/article/details/89678622">使用 VSCode 编辑远程服务器文件</a></li></ul>]]></content>
       
       
       <categories>
