@@ -1,5 +1,5 @@
 ---
-title: github 以及 google 的一些搜索技巧
+title: github 以及 g 的一些搜索技巧
 date: 2021-02-07 11:15:11
 cover: https://w.wallhaven.cc/full/57/wallhaven-57wgl8.jpg
 tags:
@@ -11,7 +11,7 @@ categories:
 
 ## 前言
 
-> 我们在日常生活中搜索引擎 google baidu 以及 github 都是必不可少的, 如何能更高效使用他们呢 请看下文
+> 我们在日常生活中搜索引擎 g baidu 以及 github 都是必不可少的, 如何能更高效使用他们呢 请看下文
 
 ## github
 
@@ -24,7 +24,7 @@ categories:
 - language:java 用Java编写的项目
 - [more](https://help.github.com/en/github/searching-for-information-on-github/searching-for-repositories#search-by-repository-name-description-or-contents-of-the-readme-file)
 
-## google
+## g
 
 - site 指定搜索的某个网站。例：redux site:github.com
 - filetype，指定搜索的文件类型。例：前端 filetype:pdf

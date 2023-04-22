@@ -11,7 +11,7 @@ categories:
 ## <a name="README">puppeteer 相关资料</a>
 
 - [本项目代码托管地址](https://github.com/BestDingSheng/puppeteer-learn)
-- [puppeteer github ](https://github.com/GoogleChrome/puppeteer)
+- [puppeteer github ](https://github.com/GChrome/puppeteer)
 - [puppeteer 中文文档](https://zhaoqize.github.io/puppeteer-api-zh_CN/#/)
 
 ## puppeteer 简介
@@ -31,7 +31,7 @@ Puppeteer 是 Chrome 开发团队在 2017 年发布的一个 Node.js 包, 用来
 - 在启动 Chrome 时添加参数 --headless，便可以 headless 模式启动 Chrome
 
 ```bash
-alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"  # Mac OS X 命令别名
+alias chrome="/Applications/G\ Chrome.app/Contents/MacOS/G\ Chrome"  # Mac OS X 命令别名
 
 chrome --headless --disable-gpu --dump-dom https://www.baidu.com               # 获取页面 DOM
 
@@ -124,7 +124,7 @@ args |	Array(String) |	传递给 chrome 实例的其他参数，比如你可以�
 handleSIGINT |	boolean |	是否允许通过进程信号控制 chrome 进程，也就是说是否可以使用 CTRL+C 关闭并退出浏览器. |
 timeout | number |	等待 Chrome 实例启动的最长时间。默认为30000（30秒）。如果传入 0 的话则不限制时间 |
 dumpio |	boolean	| 是否将浏览器进程stdout和stderr导入到process.stdout和process.stderr中。默认为false。|
-userDataDir |	string |	设置用户数据目录，默认linux 是在 ~/.config 目录，window 默认在 C:\Users{USER}\AppData\Local\Google\Chrome\User Data, 其中 {USER} 代表当前登录的用户名 |
+userDataDir |	string |	设置用户数据目录，默认linux 是在 ~/.config 目录，window 默认在 C:\Users{USER}\AppData\Local\G\Chrome\User Data, 其中 {USER} 代表当前登录的用户名 |
 env |	Object |	指定对Chromium可见的环境变量。默认为process.env。|
 devtools |	boolean |	是否为每个选项卡自动打开DevTools面板， 这个选项只有当 headless 设置为 false 的时候有效 |
 
@@ -476,7 +476,7 @@ https://www.npmjs.com/package/selenium-webdriver
 
 Chrome是谷歌的网络浏览器，是目前世界上使用率最高的浏览器，据美国网络通讯流量监测机构估计，截至2018年，Chrome在桌面端占据了66%的市场份额，而在移动端这个数字为50%。Chromium是谷歌主导的开源网络浏览器项目，国内外很多浏览器都是在它的开源代码基础上二次研发的，比较出名的有遨游、360、搜狗、QQ、UC，当然还有“红芯”。
 
-Chromium和Chrome都是由Google研发的浏览器，那么他们两个之间究竟有什么区别或者说联系呢？
+Chromium和Chrome都是由G研发的浏览器，那么他们两个之间究竟有什么区别或者说联系呢？
 
 Chromium和Chrome的区别：
 
@@ -486,6 +486,6 @@ Chromium和Chrome的区别：
 
 3、Chromium功能比Chrome多，因为新功能都是先在Chromium中使用，等完善后才添加到Chrome中。相对的Chrome就要比Chromium稳定很多不容易出错；
 
-4、Chromium不开放自动更新功能，所以用户需手动下载更新，而Chrome则可自动连上Google的服务器更新，但新版的推出很慢。
+4、Chromium不开放自动更新功能，所以用户需手动下载更新，而Chrome则可自动连上G的服务器更新，但新版的推出很慢。
 
 ### <a href="#README">回到顶部</a>

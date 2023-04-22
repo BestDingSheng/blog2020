@@ -1,11 +1,11 @@
 ---
-title: 科学上网
+title: Proxy上网
 date: 2021-03-08 16:57:59
 cover: https://w.wallhaven.cc/full/o3/wallhaven-o3d1g9.jpg
 tags:
-    - 科学上网
+    - Proxy上网
 categories:
-    - 科学上网    
+    - Proxy上网    
 ---
 
 
